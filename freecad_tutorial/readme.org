@@ -1,0 +1,16 @@
+
+* tutorials
+** model mania 2000
+https://youtu.be/ObLWQJ9JpDA
+https://forum.freecad.org/viewtopic.php?t=91725
+https://forum.freecad.org/viewtopic.php?p=789991#p789991
+
+** FCB / Draft
+https://forum.freecad.org/viewtopic.php?t=91405
+
+** Parametric FEA (Finite Element Analasys)
+https://youtu.be/cwtgB4KpdJo
+https://forum.freecad.org/viewtopic.php?t=76108
+
+** spiral/vase
+https://forum.freecad.org/viewtopic.php?p=800420#p800420

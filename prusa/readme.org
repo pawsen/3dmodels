@@ -1,0 +1,9 @@
+#+title: Readme
+
+
+* Nextruder Modified Idler Lever
+The modified lever is a drop-in replacement that shouldn't cause any issues but may resolve issues with poor grip on filaments
+- [[https://www.printables.com/model/596608-nextruder-modified-idler-lever/files][modified origonal]]
+- [[https://www.printables.com/model/531604-mmu3-printable-parts/files][New version from MMU3]]
+
+I used the new version from MMU3 by Prusa. Printed in ABS, but PC-CF is recommended due to thermal stability.
