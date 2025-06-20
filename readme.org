@@ -1,0 +1,4 @@
+
+* openscad
+Generate openscad code from python using [[https://github.com/jeff-dh/SolidPython][SolidPython]]
+* freecad
