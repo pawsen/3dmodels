@@ -1,0 +1,156 @@
+:PROPERTIES:
+:DIR:      ~/documents/3d/climbing/
+:END:
+
+#+title: Readme
+
+* feedback preventer :ATTACH:
+
+#+CAPTION: Lead Rope Solo, 7a in Frankenjura
+[[attachment:IMG_20210811_123548.jpg]]
+
+#+CAPTION: Bottom anchor unclipped itself due to feedback (and of course lack of locking carabiner)
+[[attachment:IMG_20210811_124913.jpg]]
+
+#+CAPTION: Soft Cinch with an Orb(american footbal) keeper. Video from Derek
+[[attachment:soft-cinch-derek.mp4]]
+
+** Avant Climbing soft cinch :ATTACH:
+https://avantclimbing.com/products/soft-cinch-lead-rope-solo-backfeed-preventer-5-pack
+
+Innovative Hammer-Head Flap Feature:
+- A key highlight, the hammer-head flap, is specifically designed to prevent the rope from dislodging from the cincher during falls.
+
+#+CAPTION: Avant soft cinch
+[[attachment:feedback_preventer.jpeg]]
+#+CAPTION: Avant soft cinch installed
+[[attachment:feedback_preventer_installed.jpeg]]
+
+#+CAPTION: demonstration of Avant Soft Cinch
+[[attachment:SoftCinchGIF1.webp]]
+
+#+CAPTION: Soft Cinch with a Orb head, picture from Derek
+[[attachment:soft-cinch-orb.jpg]]
+
+** Other design
+
+*** Tent polo clip-alike
+
+#+CAPTION: Tent pole clip inspired design
+[[attachment:431012719_6893071814148890_6064641911334807640_n.jpg]]
+
+
+More pictures in the [[https://www.facebook.com/share/p/9A3g5DoE1H5zvZLV/][fb post]]. [[https://www.thingiverse.com/thing:6521527][stl on thingiverse.com]]
+*** groom hitch
+
+Based on https://cults3d.com/en/3d-model/tool/gromm-hitch and [[https://youtu.be/otQ2d3PAPBQ][user manual]].
+
+- Levers ::
+  - Place the units like this (picture attached)
+  - Print material TPU/ Ninjatek Ninjaflex
+  - 20% infill, 3 parimeters
+  - approx 230C depending on material and printer
+  - GRID innfill for maximum strength
+  - Remember to print slow with this material"
+- Friction Stackers ::
+  - Remember to turn on supports
+  - Print material TPU/ Ninjatek Ninjaflex
+  - 20% infill, 3 perimeters
+  - approx 230C depending on material and printer
+  - GRID infill for maximum strength
+  - Remember to print slow with this material
+  - Support settings recommended 40% angle
+  - 2mm support resolution
+  - 12% supportinnfill and 2 layers verticle seperation height"
+
+** installation
+These fit tightly on the carabiner and are semi-permanent. It is best to put them on a set of extra carabiners, and then swap them with the rope-side quickdraw carabiner prior to a rope solo outing
+
+Installation Steps:
+
+1. Soak the TPU Soft-Cinch in hot water for 3 minutes to soften the material, and lubricate the carabiner slot. Lubricate the body of the carabiner itself with clean water as well. (the Soft Cinch will be impossible to install without lubrication assistance!)
+2. Start the Soft-Cinch onto the carabiner nose, starting with the hammer-head feature upwards and outwards.
+
+https://youtu.be/t0aVTb3qjd0
+
+* clip stick
+** poussey clip
+Good for locking carabiners
+
+https://cults3d.com/:429392
+[[https://youtu.be/ezAxxPkTVp4][demonstration]]
+
+*** printing :ATTACH:
+
+#+CAPTION: Place model on base
+[[attachment:poussey-bed-ori.jpg]]
+
+Print settings
+- Print with quality PETG, brand and color of your choosing
+- 0,4mm nozzle
+- 0,2mm layer height
+- 100% infill
+- 3 walls
+- Temperature 250C on nozzle and 75% on bed
+- Fan approx 40%
+- Print speed as you like, recommend around 50mm/s depending on your printer.
+
+(See attached files for supports)
+- Generate Support from Build Platform only
+- Supportpillar resolution 1mm
+- Make the support inside this hole manually (see attached pic)"
+
+** sports climbing clip
+https://www.printables.com/model/300765-robust-climbing-stick-clip-that-screws-on-painters
+
+* other models by ArticBastard
+https://cults3d.com/en/3d-model/tool/the-bastard-twins-medium-version
+
+Printer material TPU/ Ninjatek Ninjaflex
+20% infill, 3 perimeters, approx 230C depending on material and printer.
+
+GRID infill for maximum strength.
+
+Remember to print slow with this material
+* Anti crossload / flex-link :ATTACH:
+
+https://avantclimbing.com/products/flex-link-anti-crossload-protector
+#+CAPTION: Anti-Crossload Protector
+[[attachment:anti-crossload.jpeg]]
+
+The unique pass-through slot allows the Flex-Link to effortlessly fold into a racking mode. This lets the Flex-Link be hung loosely and out of the way on a carabiner.
+
+Alternative
+https://www.thingiverse.com/thing:5823477/files
+
+* Flip stop
+Also known as [[https://avantclimbing.com/products/flip-stop-cam-biner-keepers][Cam Carabiner Stabilizers]]
+
+#+CAPTION: Avant flip stop
+[[attachment:PXL_20240102_185207903.webp]]
+
+#+CAPTION: Installed flip stop
+[[attachment:PXL_20240102_185238556.webp]]
+
+** dimension
+Old-style BD cams [[https://www.blackdiamondequipment.com/stories/experience-story-qc-labreslinging-camalots-and-c3s/][came with a 11/16"]][[https://web.archive.org/web/20250111201303/https://www.blackdiamondequipment.com/en_US/stories/experience-story-qc-labreslinging-camalots-and-c3s/][[archive]​]](17.5mm) sewn SuperTape(nylon tubular sling)
+New-style BD cams comes with a 14mm sewn dyneema sling.
+
+These dimensions refer to the =VarSet= in the FreeCad model
+|             | DoubleLinkLength | SingleLinkLength |
+|-------------+------------------+------------------|
+| new, 14mm   |              9.3 |            15.10 |
+| old, 17.5mm |             12.8 |             18.6 |
+
+* Quick release/fire :ATTACH:
+Quick release is a 3d-printed friction based reusable release mechanism.
+
+[[https://avantclimbing.com/products/quick-fire-cam-release][avant has a model]] for mounting on a harness to use with protection gear.
+
+Some are also using a modified model for holding a GriGri in a inverted upright position(Held UpRight/HUR, [[https://youtube.com/shorts/nEMtTI-4SGk][demonstration]]) when doing Lead Rope Solo. The GriGri in HUR feeds better but will most likely not catch an inverted fall if held upright during the fall. The quick release is used to connect the grigri to the chest harness and should, during an inverted fall, release the grigri and let the grigri catch the fall.
+
+#+CAPTION: Quick release evolution, picture from Derek
+[[attachment:quick-release-evolution.jpg]]
+
+#+CAPTION: Quick release for a chest harness, picture from Derek
+[[attachment:quick-release-chest-harness.jpg]]
