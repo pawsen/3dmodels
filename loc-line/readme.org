@@ -1,0 +1,7 @@
+- ALL PARTS ARE TO BE MADE OF PETG/ABS - PLA is too brittle and does not work
+- RANDOMIZE THE Z-SEAM ORIENTATION in the slicer - so the seam gets distributed evenly
+- print the segments oriented with the rim on the bottom
+- if the tube segments fit too lose or too tight adjust the flow/extrusion rate in 3% steps. it needs to be super tight
+- print the segments in batches of 3 until you got the flow adjusted correctly
+https://www.thingiverse.com/thing:9457
+https://github.com/openscad/MCAD/blob/master/boxes.scad

@@ -1,0 +1,37 @@
+#+title: Readme
+
+
+* Cad files
+
+Downloaded from https://www.loc-line.com/files/cadfiles/
+
+Use
+: wget -r -nH --cut-dirs=2 --no-parent --reject="index.html*" https://www.loc-line.com/files/cadfiles/Step
+
+However this also downloaded the parent folder ~../Parasolid/~ recursively. Try adding ~--include=files/cadfiles/Step~
+
+#+begin_src sh
+--no-parent ${comment# will not crawl links in folders above the base of the URL}
+-nH/--no-host-directories ${comment# do not create folders with the domain name}
+--reject="index.html*" ${comment# use this option if you need an exact mirror}
+--cut-dirs=0 ${comment# replace 0 with the number of folders in the path, 0 for the whole domain}
+--random-wait --wait 3 --no-http-keep-alive ${comment# do not get banned}
+--execute robots=off --user-agent=Mozilla/5.0 ${comment# I AM A HUMAN!!!}
+#+end_src
+* convert using freecad
+
+
+Open freecad console,
+: FreeCAD --console
+
+and try something like
+#+begin_src python
+import Part
+s=Part.Shape()
+s.read("file.stp")
+s.exportStl("file.stl")
+#+end_src
+
+maybe useful
+https://wiki.freecad.org/index.php?title=Start_up_and_Configuration
+https://wiki.freecad.org/Python_console
