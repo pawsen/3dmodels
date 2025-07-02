@@ -1,0 +1,6 @@
+#+title: Readme
+
+in general, if you want to collaborate between kicad and FreeCAD, the best way is to start from mechanical models to obtain wrl models.
+
+Pinheader step-files
+https://gitlab.com/kicad/libraries/kicad-packages3D/-/tree/master/Connector_PinHeader_2.54mm.3dshapes

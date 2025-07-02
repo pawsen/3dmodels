@@ -1,0 +1,39 @@
+## Macro that makes a New Sketch
+######################################################################################
+
+from PySide import QtGui
+import FreeCADGui as gui
+doc = FreeCAD.ActiveDocument   
+App.ActiveDocument.recompute()
+                
+
+active_workbench = gui.activeWorkbench()
+if active_workbench.name() == 'PartDesignWorkbench':
+    sketch = gui.Selection.getSelection()[0]
+    if hasattr(sketch,'TypeId') and sketch.TypeId == 'Sketcher::SketchObject':
+        pass
+    else:
+        sketch = None
+        print("No sketch selected")
+       
+    if sketch:
+        activeBody = Gui.ActiveDocument.ActiveView.getActiveObject('pdbody')
+        if activeBody:
+            sk_new = App.getDocument(doc.Name).getObject(activeBody.Name).newObject('Sketcher::SketchObject','Sketch')    # create a new sketch
+            sk_new.Placement = sketch.Placement
+            sk_new.AttachmentOffset = sketch.AttachmentOffset
+            sk_new.Geometry = sketch.Geometry
+            sk_new.Constraints = sketch.Constraints
+            sk_new.MapMode = sketch.MapMode
+            sk_new.MapReversed = sketch.MapReversed
+        
+            if hasattr(sk_new,'AttachmentSupport'):
+                sk_new.AttachmentSupport = sketch.AttachmentSupport
+            else:
+                sk_new.Support = sketch.Support
+                
+            delta_global = App.Placement(App.Vector(0,0,10),App.Rotation(0,0,0),App.Vector(0,0,0))  #  add in offset
+            sk_new.AttachmentOffset = sk_new.AttachmentOffset.multiply(delta_global)
+            App.ActiveDocument.recompute()
+else:
+    print("Can't be in Sketch and for PartDesign only")
