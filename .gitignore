@@ -1,4 +1,5 @@
 *.gcode
 *.bgcode
+*.FCBak
 loc-line/loc-line-step/Step
 loc-line/loc-line-step/Parasolid
