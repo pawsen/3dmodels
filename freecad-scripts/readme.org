@@ -1,0 +1,2 @@
+
+The code for [[https://github.com/FreeCAD/FreeCAD/blob/main/src/Gui/PythonConsole.cpp][PythonConsole.cpp]]
