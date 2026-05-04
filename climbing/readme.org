@@ -154,3 +154,11 @@ Some are also using a modified model for holding a GriGri in a inverted upright 
 
 #+CAPTION: Quick release for a chest harness, picture from Derek
 [[attachment:quick-release-chest-harness.jpg]]
+
+* Tunable friction device / TFD
+A small device to put in front of the continuous cache, to add enough friction so that when the cache loop runs out, the HUR grigri+ will break the chest fuse and catch a inverted fall.
+https://youtu.be/UurQcmdRJ2s
+
+The stls in [[./tfd]] are the caps shown in the youtube video.
+
+Warning/reminder! A TFD is useless without a breakaway chest fuse. If you don’t have a breakaway chest fuse this will not help you.
